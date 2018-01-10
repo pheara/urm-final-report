@@ -8,6 +8,23 @@ should be 9-10 pages (including figures, pictures, sketches, etc)
 
 section-specific specifications are in the main.md
 
+# Setup
+
+For editing: just keep using whatever you're using to edit text. most editors will highlight markdown syntax and some also provide rendering previes, e.g. atom, vscode, sublime, etc
+
+For building the pdf: install [pandoc](https://pandoc.org/installing.html), pandoc-citeproc (for the references) and pdflatex (for building latex-style pdfs)
+
+For debian-based systems and windows with an [activated linux-subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10) it should just be:
+
+```bash
+sudo apt install pandoc pandoc-citeproc pdflatex
+```
+
+For mac, there's `brew install pandoc`. i assume the other packages should be there as well.
+
+Alternatively, you can also find [pandoc-installers for all OSes here](https://github.com/jgm/pandoc/releases/). But you'll need to install pdflatex some other way, e.g. by installing [MiKTeX](http://miktex.org/).
+
+
 # Build 
 
 build the report via `make.sh` or `pandoc --filter pandoc-citeproc main.md -o export.pdf`
@@ -15,7 +32,5 @@ build the report via `make.sh` or `pandoc --filter pandoc-citeproc main.md -o ex
 the `references.json` can be generated using e.g. [zotero](https://www.zotero.org/).
 
 there's a shell script that automates the build (`build.sh`). of course, that will only work if pandoc and pandoc-citeproc are installed.
-
-pandoc installation guides are [here](https://pandoc.org/installing.html). it should just be in `brew`, `apt`, `npm`, $insert_your_package_manager_here. you'll also need pdflatex installed to build the pdf – however, you can just use an editor with markdown preview to write the thing or also generate html. furhtermore, the citations need pandoc-citeproc. In Windows you can also install the [linux-subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 alex really likes [Typora](https://typora.io). it gets out of the way, is pretty, and works without installing anything else (as far as i can tell).
