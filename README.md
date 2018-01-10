@@ -10,7 +10,7 @@ section-specific specifications are in the main.md
 
 # Setup
 
-For editing: just keep using whatever you're using to edit text. most editors will highlight markdown syntax and some also provide rendering previes, e.g. atom, vscode, sublime, etc
+For editing: just keep using whatever you're using to edit text. most editors will highlight markdown syntax and some also provide rendering previes, e.g. atom, vscode, sublime, etc. alex really likes [Typora](https://typora.io). it gets out of the way, is pretty, and works without installing anything else (as far as i can tell).
 
 For building the pdf: install [pandoc](https://pandoc.org/installing.html), pandoc-citeproc (for the references) and pdflatex (for building latex-style pdfs)
 
@@ -32,5 +32,3 @@ build the report via `make.sh` or `pandoc --filter pandoc-citeproc main.md -o ex
 the `references.json` can be generated using e.g. [zotero](https://www.zotero.org/).
 
 there's a shell script that automates the build (`build.sh`). of course, that will only work if pandoc and pandoc-citeproc are installed.
-
-alex really likes [Typora](https://typora.io). it gets out of the way, is pretty, and works without installing anything else (as far as i can tell).
