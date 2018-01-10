@@ -6,8 +6,9 @@ author: Some Authors
 date: 24.01.2018
 ---
 
-
 # Introduction
+
+We can cite shit! [@harrison2007]
 
 # Related work 
 
@@ -21,7 +22,7 @@ drawing on peer reviewed literature
 * how data was collected
 * also talk about limitations (e.g. time-limitations, methodological limitations)
 * how we went about the language thing
--->
+  -->
 
 # Findings
 
@@ -39,7 +40,7 @@ or some design-relevant discussion
 
 <!--
 * future: e.g. different demographics, differently phrased questions, transcending some limitations, etc
--->
+  -->
 
 # Acknowledgements
 
