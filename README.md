@@ -10,11 +10,7 @@ section-specific specifications are in the main.md
 
 # Build 
 
-build the report via: 
-
-```sh
-pandoc --filter pandoc-citeproc main.md -o export.pdf
-```
+build the report via `make.sh` or `pandoc --filter pandoc-citeproc main.md -o export.pdf`
 
 the `references.json` can be generated using e.g. [zotero](https://www.zotero.org/).
 
