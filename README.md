@@ -18,4 +18,4 @@ pandoc --filter pandoc-citeproc main.md -o export.pdf
 
 the `references.json` can be generated using e.g. [zotero](https://www.zotero.org/).
 
-pandoc installation guides are [here](https://pandoc.org/installing.html). it should just be in `brew`, `apt`, `npm`, $insert_your_package_manager_here. you'll also need pdflatex installed to build the pdf -- however, you can just use an editor with markdown preview to write the thing or also generate html. In Windows you can also install the [linux-subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+pandoc installation guides are [here](https://pandoc.org/installing.html). it should just be in `brew`, `apt`, `npm`, $insert_your_package_manager_here. you'll also need pdflatex installed to build the pdf – however, you can just use an editor with markdown preview to write the thing or also generate html. In Windows you can also install the [linux-subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
