@@ -27,8 +27,11 @@ Alternatively, you can also find [pandoc-installers for all OSes here](https://g
 
 # Build 
 
-build the report via `make.sh` or `pandoc --filter pandoc-citeproc main.md -o export.pdf`
+Build the **report-pdf** `pandoc --filter pandoc-citeproc main.md -o export.pdf`. 
+There's a shell script that automates the build (`build.sh`). of course, that will only work if pandoc and pandoc-citeproc are installed.
 
-the `references.json` can be generated using e.g. [zotero](https://www.zotero.org/).
+The `references.json` can be generated using e.g. [zotero](https://www.zotero.org/).
 
-there's a shell script that automates the build (`build.sh`). of course, that will only work if pandoc and pandoc-citeproc are installed.
+If you want **html**, run `pandoc --standalone --filter pandoc-citeproc main.md -o export.html` (the additional flag adds a header and a body-tag).
+
+For **media-wiki-syntax** use `pandoc --filter pandoc-citeproc main.md -t mediawiki -o export.mediawiki.txt`.
