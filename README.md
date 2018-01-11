@@ -28,7 +28,7 @@ Alternatively, you can also find [pandoc-installers for all OSes here](https://g
 # Build 
 
 Build the **report-pdf** `pandoc --filter pandoc-citeproc main.md -o export.pdf`. 
-There's a shell script that automates the build (`build.sh`). of course, that will only work if pandoc and pandoc-citeproc are installed.
+There's a shell script that automates the build (`build.sh`). of course, that will only work if the setup's been done.
 
 The `references.json` can be generated using e.g. [zotero](https://www.zotero.org/).
 
