@@ -1,9 +1,12 @@
 ---
-bibliography: references.json
-link-citations: true
 title: Some Title
 author: Some Authors
 date: 24.01.2018
+
+documentclass: sigchi
+csl: acm-sigchi-proceedings.csl
+bibliography: references.json
+link-citations: true
 ---
 
 # Introduction
