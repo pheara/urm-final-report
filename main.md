@@ -47,4 +47,6 @@ or some design-relevant discussion
 
 # Acknowledgements
 
-# References (be careful to follow the correct formatting)
+# References
+
+
