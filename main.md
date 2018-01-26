@@ -14,7 +14,7 @@ bibliography: references.json
 link-citations: true
 ---
 
-# **Introduction**
+# Introduction
 
 The idea for this project came to us after listening to a talk by Brie Code, aptly titled "Video Games are Boring" [-@code2017}. In it, she shares her examination of an interesting facet of her life: Brie is a video game developer, but her friends don't like video games. That seemed peculiar to her: Movies, Books and other media, in contrast, held more or less universal appeal. A problem she identifies is that games are made mainly by people who already enjoy and play existing games, and not often create outside of a narrow set of expectations. They (consciously or not) prioritize their interests over other (potential) audiences.
 
