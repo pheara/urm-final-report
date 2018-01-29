@@ -112,7 +112,11 @@ and beliefs about games, from non-gamers. It was conducted as a
 self-hosted Lime-survey, to circumvent the issue of a third party
 potentially having access to the data. The recruiting was done by
 spreading the survey on our personal facebook pages, encouraging
-sharing, and posting it on select communities.
+sharing, and posting it on select communities. Some of these were gaming-related,
+e.g. the Viennese Indiegamedev-Plattform and Subotron, with the plea
+to spread the survey to friends and aquaintances that fit the profile and 
+with the hope, that their personal stake in the hobby would motivate them
+to do so.
 
 The survey started out with some demographic questions, inquiring about
 gender and age (to be answered in brackets to avoid giving away
